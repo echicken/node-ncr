@@ -1,4 +1,4 @@
-{	"name" : "Network Card Reader",
+{	"name" : "NetworkCardReader",
 	"version" : "1.0.0",
 	"license" : "BSD-3-Clause",
 	"description" : "A network card reader for node.js.",
