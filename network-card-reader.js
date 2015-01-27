@@ -12,7 +12,7 @@ var allowedClients = [
 		'productId' : 15354
 	},
 	port = 8124,
-	address = "192.168.1.40"; // Or the desired IP address to listen on (string.)
+	address = undefined; // Or the desired IP address to listen on (string.)
 
 var initServer = function() {
 
