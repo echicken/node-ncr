@@ -3,6 +3,8 @@ A network card reader server for node.js.  (HID USB card readers, RFID, magstrip
 
 This is mostly for my own use, but if it benefits you ... so be it.
 
+On Ubuntu, this probably needs the package **libusb-1.0-0-dev** if not others.
+
 Installation is done like so:
 
 ```sh
