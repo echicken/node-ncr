@@ -5,8 +5,7 @@ var net = require('net'),
 
 // Settings go here.
 var allowedClients = [
-		"127.0.0.1",
-		"192.168.1.40"
+		"127.0.0.1"
 	],
 	rfidReader = {
 		'vendorId' : 3111,
