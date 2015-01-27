@@ -1,0 +1,29 @@
+{	"name" : "Network Card Reader",
+	"version" : "1.0.0",
+	"license" : "BSD-3-Clause",
+	"description" : "A network card reader for node.js.",
+	"author" : {
+		"name" : "echicken",
+		"email" : "echicken@bbs.electronicchicken.com"
+	},
+	"main" : "./index.js",
+	"repository" : {
+		"type" : "git",
+		"url" : "https://github.com/echicken/node-ncr.git"
+	},
+	"engines" : {
+		"node" : ">= 0.10.24"
+	},
+	"dependencies" : {
+		"daemonize2" : ">= 0.4.2",
+		"hidstream" : ">= 2.0.0",
+		"rconsole" : ">= 0.2.0"
+	},
+	"keywords" : [
+		"rfid",
+		"magstripe",
+		"card",
+		"copier",
+		"papercut"
+	]
+}
