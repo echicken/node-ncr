@@ -4,15 +4,15 @@ var net = require('net'),
 	connections = [];
 
 // Settings go here.
-var allowedClients = [
+var allowedClients = [	// Array of IP addresses allowed to connect. (Strings)
 		"127.0.0.1"
 	],
 	rfidReader = {
-		'vendorId' : 3111,
-		'productId' : 15354
+		'vendorId' : 3111,	// The Vendor ID of your card reader. (Number)
+		'productId' : 15354 // The Product ID of your card reader. (Number)
 	},
-	port = 8124,
-	address = undefined; // Or the desired IP address to listen on (string.)
+	port = 8124,	// The port you want to listen on. (Number)
+	address = undefined; // The IP address to listen on. (String) (undefined == all)
 
 var initServer = function() {
 
